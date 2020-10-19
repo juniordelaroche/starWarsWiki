@@ -5,9 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 2rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.formulario input{
+  width: 100%;
+  padding: 5px;
+  color: gray;
+}
+.resultado-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-personaje {
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 16px 0px rgba(217,217,217,1);
 }
